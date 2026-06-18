@@ -24,7 +24,7 @@ jobs: # 🧩 Define all jobs
     steps: # 🪜 Ordered steps in the job
 
       - name: Checkout Repository # 🧱 Step 1: Clone the repository
-        uses: actions/checkout@v6 # 🔄 Official GitHub action to checkout code
+        uses: actions/checkout@v7 # 🔄 Official GitHub action to checkout code
         with:
           token: ${{ secrets.GITHUB_TOKEN }} # 🔑 Use built-in token for authentication
 
